@@ -8,6 +8,7 @@ namespace Faker;
  * @property string name
  * @property string firstName
  * @property string lastName
+ * @property string job
  *
  * @property string cityPrefix
  * @property string secondaryAddress
