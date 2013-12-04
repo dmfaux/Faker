@@ -71,6 +71,61 @@ class Person extends \Faker\Provider\Person
         'Zboncak', 'Zemlak', 'Ziemann', 'Zieme', 'Zulauf'
     );
 
+    protected static $jobtitle = array(
+        'Accountant and or Auditor', 'Accounts Clerk, Billing', 'Accounts, Administration Assistant', 'Acrobat', 'Administration Officer, Loans', 'Adventure Tourism Guide', 'Advocate, Mental Health or Substance Abuse', 'After School Caregiver', 
+        'Agricultural Machinery Service Person', 'Air Filter Maker', 'Airport Security Screener', 'Aluminium Welder', 'Animal Care Worker', 'Animal Trainer', 'Apple Pack House Grader', 'Arborist', 
+        'Area Sales Manager', 'Artist', 'Arts Marketing and Promotion Manager', 'Assembler of Electronic Equipment', 'Assistant Bank Manager', 'Assistant Financial Manager', 'Assistant Manager Accounting', 'Assistant Mining Manager', 
+        'Assistant Trade Services Manager', 'Audio and or Video Equipment Technician', 'Automatic Teller Machine Servicer', 'Automotive Electrician', 'Automotive Service Technician', 'Back Store Manager', 'Baker', 'Bakery Supervisor', 
+        'Barber', 'Batts Installer', 'Beef Farm Hand', 'Berry Dresser', 'Berry Sorter', 'Bill Collector', 'Biological Technician', 'Blind Manufacturer', 
+        'Boat Host', 'Bobby Calf Pickup', 'Bookbinder', 'Brake Press Operator', 'Brick and Block Layer', 'Bricklayer', 'Budget Advisor', 'Building Contractor, Carpenter', 
+        'Bulldozer Driver', 'Business Analyst', 'Butcher, Halal ', 'Cable Jointer, Power-Lines', 'CAD Cartographer or Photogrammetrist', 'Cafe Manager', 'Call Centre Customer Service', 'Call Centre Worker, Customer Service', 
+        'Candy Maker', 'Car Audio Installer', 'Car Parts Dismantler', 'Car Valet', 'Caretaker, Buildings', 'Carpet and Floor Covering Layer', 'Carpet Layer\'s Assistant', 'Case Worker, Medical or Public Health', 
+        'Catering Assistant', 'Cellar Hand, Warehousing', 'Chainsaw Operator, Arborist', 'Cheese Maker', 'Chef, Cantonese Cuisine', 'Chef, Indian Cuisine', 'Chef, Shanghai Cuisine', 'Chemical Batcher', 
+        'Chicken Boner', 'Child Care Supervisor', 'Children\'s Face Painter', 'Citrus Fruit Picker', 'Claims Examiner, Property and Casualty Insurance', 'Cleaner, Industrial', 'Clerical Assistant, Reception', 'Clothing Cutter', 
+        'Coach and Truck Cleaner', 'Coffee Shop Assistant', 'Commis Chef', 'Community Support Worker, Medical', 'Computer Aided Design Architect', 'Computer Artist', 'Computer Repair Technician', 'Computer Systems Administrator, Security', 
+        'Computer Trainer', 'Concrete Driller', 'Concrete Processor', 'Concrete Worker Supervisor', 'Conservation Officer', 'Construction Supervisor', 'Contract Manager', 'Cook, Buffet', 
+        'Cook, Dim Sum', 'Cook, Korean Noodle', 'Cook, Shanghai Food', 'Cooling and Freezing Equipment Operator', 'Corporate Trainer', 'Counter Assistant', 'Court Clerk', 'Crayfisher', 
+        'Crew Person, Fishing', 'Crop Production Supervisor', 'Curtain Fitter', 'Customer Service Officer', 'Cutter Welder', 'Dairy Farm Manager', 'Dancer', 'Data Entry Person', 
+        'Debt Management Officer, Collections', 'Deli Worker', 'Dental Hygienist', 'Depot Hand, Storeperson', 'Diagnostic Medical Sonographer', 'Digger Operator, Excavating', 'Dismantler\'s Assistant, Construction', 'Dispatch Storeperson', 
+        'Distribution Labourer, Freight', 'Document Preparation Clerk', 'Door Glazier', 'Drain Extractor', 'Drawing Machine Operator, Metal or Plastic', 'Driver Pizza Delivery', 'Duck Hanger', 'Earth Mover Operator, Construction', 
+        'Edge Operator, Cutting Machine', 'Eftpos Technician', 'Electric Motor Repairer', 'Electrical Fitter', 'Electrician Industrial', 'Electronic Drafter', 'Electronic Repair Person', 'Electronics Production Engineer', 
+        'Electroplating Machine Operator', 'Employment Consultant', 'Engineering Assistant', 'English Language Teacher', 'Environmental Science Lecturer', 'Event Manager', 'Excavator Operator, Logging', 'Export Manager', 
+        'Fabricator Inspector', 'Factory Machinist', 'Farm Assistant, Driver', 'Farm Hand Assistant, Agriculture', 'Farm Station Manager', 'Fashion Model', 'Fence Hand, General', 'Fibreglass Fabricator', 
+        'Field Service Technician', 'Filter Technician', 'Financial Manager', 'Fire Extinguisher Tester', 'Fire Sprinkler Fitter', 'Firewood Processor', 'Fish Loader and Unloader', 'Fishing Crew Member', 
+        'Fitness Trainer', 'Fleet Serviceperson, Recreational Vehicles', 'Floor Layer\'s Assistant', 'Floor Stock Staff', 'Florist\'s Assistant', 'Food and Beverage Attendant', 'Food Packer', 'Food Scientist', 
+        'Foreign Language or Literature Lecturer', 'Forester', 'Forestry Technician', 'Frame Maker, Bench Carpenter', 'Freight Loader', 'Front of House Wait Person', 'Fruit Picker, Nursery', 'Funeral Attendant', 
+        'Furniture Polisher', 'Galvaniser', 'Garbage Runner', 'Garment Cutter', 'Gas Plant Operator', 'General Labourer, Construction ', 'Geological Sample Test Technician', 'Ginseng Picker', 
+        'Glass Processing Machinist', 'Gondola Operator', 'Grape Harvester', 'Graphic Designer', 'Greenstone Carver', 'Grocery Person, Stock Clerk', 'Guide', 'Hairstylist', 
+        'Harvester, Nursery', 'Health and Social Services Worker', 'Health Worker, Mental Health', 'Heavy Equipment Machinery Maintenance Person', 'Help Desk Operator IT', 'Hoist Machine Operator', 'Home Appliance Technician', 'Home Insulation', 
+        'Horse Trainer', 'Hose Doctor', 'Hospitality Officer', 'Hotel Auditor', 'Hotel Worker', 'Housekeeper, Private Home', 'Hydraulic Field Service Person', 'Ice Cream Vendor Mobile', 
+        'Industrial Machinery Mechanic', 'Information Systems Manager', 'Instructional Coordinator', 'Insurance Administrator', 'Interior Designer', 'Inward Dispatcher, Yard and Warehouse', 'Irrigation Labourer', 'IT System Administrator', 
+        'Job Broker', 'Joint Sealer', 'Key Cutter', 'Kitchen Hand, Dishwasher', 'Kiwifruit Picker', 'Knitting Machine Setter', 'Labourer Agriculture', 'Landscape Architect', 
+        'Laser Cutter, Computer Controlled', 'Laundromat Assistant', 'Lawn Mower Operator', 'Leadlighter Trainee', 'Legal Consultant, Lawyer', 'Levelling Machine Operator', 'Lifeguard', 'Linesperson', 
+        'Living Skills Coach Mental Health or Substance Abuse', 'Loan Interviewer', 'Lodge Manager', 'Logging Crew Person', 'Loose Litter Bin Cleaner', 'Machine Operator, Casting Machine', 'Machinist', 'Maintenance Engineer, Machinery', 
+        'Maintenance Worker Helper', 'Manager of Police and Detectives', 'Marine Engineer', 'Market Garden Labourer', 'Marketing Assistant', 'Masseuse', 'Meat Inspector', 'Mechanical Engineering Technician', 
+        'Medical and or Clinical Laboratory Technologist', 'Medical Receptionist', 'Mental Health Support Worker, Psychiatric Aide', 'Metal Pickling Equipment Operator or Tender', 'Midwife', 'Mill Hand Machines', 'Mining Safety Engineer', 'Mobile Security Guard', 
+        'Motel Cleaner', 'Motorcycle Mechanic', 'Museum Assistant', 'Mussel Farmer', 'Native Tree Nursery Worker', 'Newspaper Delivery Person', 'Nocturnal House Attendant', 'Nurse Aide Home', 
+        'Nursing Aide', 'Off Set Printer', 'Office Clerk', 'Oil Refinery Worker', 'Optical Technician', 'Orchard Supervisor', 'Organic Gardener', 'Outpatient Administrator', 
+        'Pack House Worker', 'Packhouse Worker', 'Painter\'s Assistant', 'Panelbeater', 'Paperhanger', 'Parking Ticketing Attendant', 'Paver, Asphalt and Concrete', 'Payroll, Accounts Officer', 
+        'Performing Artist', 'Pest Control Worker', 'Pharmacy Technician', 'Photographic Processing Machine Operator', 'Physiotherapy Assistant', 'Piggery Worker', 'Pip Fruit Harvester', 'Pip Fruit Tyer', 
+        'Placement Advisor', 'Planter, Forestry', 'Plastic and Glass Sorter', 'Plumbing Labourer', 'Polisher', 'Porter', 'Postmaster', 'Powder Coater', 
+        'Pre-Nail Hand', 'Priest', 'Printing Finisher', 'Process Line Supervisor', 'Processing Shed Supervisor', 'Product Designer', 'Production Line Supervisor', 'Professional Sports Competitor', 
+        'Promotions Coordinator', 'Prosthetist', 'Psychiatrist', 'Pump Maintenance Person', 'Qualified Builder, Construction', 'Quality Control Officer', 'Racehorse Worker', 'Radio Producer', 
+        'Railway Track Worker', 'Records Support Officer', 'Recycle Truck Assistant', 'Refuse Runner', 'Rental Sales Manager', 'Reservation Assistant, Travel', 'Residential Social Worker', 'Restaurant Crew', 
+        'Retail Stock Assistant', 'Rigger', 'Road Marking Assistant', 'Roading Worker, Paving', 'Roller Operator, Paving', 'Roofing Tiler', 'Rubbish Collection Driver', 'Safety Inspector', 
+        'Sales and Marketing Consultant', 'Sales Representative, Technical Products', 'Sandwich and Roll Maker', 'Sawing Machine Setter', 'Scaffolder Carpentry', 'School Cleaner', 'Screen Print Operator', 'Security Alarm Technician', 
+        'Semiconductor Processor', 'Service Liaison Officer, Secretary', 'Service Technician, Mechanical', 'Sewing Machinist', 'Shearer', 'Sheepskin Trimmer', 'Shepherd', 'Shoe and Bag Repairer', 
+        'Shuttle Car Operator', 'Singing and Music Teacher', 'Skinner', 'Smallgoods Maker', 'Social Work Lecturer', 'Solar Installer', 'Sound Technician', 'Sports Coach', 
+        'Spouting Labourer', 'Sprinkler Installer', 'Stable Person', 'Statistical Assistant', 'Steel Fabricator', 'Still and Reactor Operator', 'Stocktaker', 'Store Person, Warehouse', 
+        'Straddle Truck Operator', 'Stud Farm Worker', 'Supermarket Assistant', 'Supervisor of Room Attendants', 'Surfing Tour Guide', 'Sushi Bar Manager', 'Systems Technician', 'Tannery Machine Operator', 
+        'Taxi Dispatcher', 'Teacher, Kohanga Reo ', 'Teacher, Special Education Primary', 'Technical Assistant, Laboratory', 'Telecommunication Equipment Service Technician', 'Telephone Sales Assistant', 'Teller', 'Textile Worker', 
+        'Thinner, Agriculture', 'Tile Setter', 'Timber Machine Operator', 'Timber Stacker', 'Tool and Die Maker', 'Tow Truck Operator', 'Tractor Driver, Construction', 'Traditional Chinese Medicine Practitioner', 
+        'Train Driver', 'Transport Conductor', 'Travel Agent', 'Tree Fruit Fastener', 'Tree Fruit Thinner', 'Tree Topper', 'Trolley Wrangler', 'Truck Washer', 
+        'Tutor, English Language', 'TV Aerial Installer', 'Tyre Labourer', 'Undercover Store Detective', 'Van Delivery Driver', 'Vegetable Packer', 'Vehicle Dismantler', 'Vending Machine Assistant', 
+        'Vine Clipper', 'Vineyard Leaf Plucker', 'Vineyard Topper', 'Vulcaniser', 'Warehouse Manager', 'Warehousing Assistant', 'Watchmaker and or Repairer', 'Web Administrator', 
+        'Weeder Nursery', 'Welder and Flame Cutter', 'Welding Machine Operator, Plastic', 'Wheel Alignment Fitter', 'Window Assembler', 'Wire Nailer', 'Woodwork Factory Labourer', 'Word Processor', 
+        'Worm Farmer', 'Yard Person', 'Youth Worker Counsellor');
+    
     private static $prefix = array('Mr.', 'Mrs.', 'Ms.', 'Miss', 'Dr.');
 
     private static $suffix = array('Jr.', 'Sr.', 'I', 'II', 'III', 'IV', 'V', 'MD', 'DDS', 'PhD', 'DVM');
@@ -89,5 +144,13 @@ class Person extends \Faker\Provider\Person
     public static function suffix()
     {
         return static::randomElement(static::$suffix);
+    }
+
+    /**
+     * @example 'Environmental Science Lecturer'
+     */
+    public static function job()
+    {
+        return static::randomElement(static::$jobtitle);
     }
 }
